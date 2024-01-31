@@ -26,7 +26,7 @@ DB_NAME=kittygram
 DB_HOST=db
 DB_PORT=5432
 
-SECRET_KEY='django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$'
+SECRET_KEY='SECRET_KEY'
 DEBUG = 'True'
 ALLOWED_HOSTS = '127.0.0.1'
 ```
@@ -38,6 +38,9 @@ sudo docker compose up -f docker-compose.production.yml up
 ## Конфигурационные файлы
 Во время разработки рекомендуется использовать <strong>docker-compose.yml</strong>, где образы билдятся при каждом запуске.
 В продакшене использовать <strong>docker-compose.production.yml</strong> для получения готовых образов с Docker Hub.
+
+## Статус
+![Workflow Status](https://github.com/ponyk1ller/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 
 
