@@ -1,6 +1,6 @@
 # Kittygram
 ## Описание
-<a href='https://kittydocker.ddns.net'>Kittygram </a> предоставляет пользователям возможность публиковать изображения своих любимых котиков! 
+Kittygram предоставляет пользователям возможность публиковать изображения своих любимых котиков! 
 
 ## Технологии:
 HTML, CSS, JavaScript, Python, Django, React, Docker.
